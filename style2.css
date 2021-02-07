@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+.vjs-playlist-vertical .vjs-playlist-thumbnail {
+	display: flex;
+	flex-direction: row
+}
+
+.vjs-playlist-player-container {
+	display: flex;
+	flex-direction: row
+}
+
+.video-js{
+	max-width: calc(100% - 370px);
+	background-color: transparent
+}
+
+.bc-iframe {
+	background-color: transparent
+}
+
+.vjs-poster {
+	background-color: transparent !important
+}
+
+.vjs-playlist .vjs-playlist-title-container {
+	width: 100%;
+	margin-left: 40%;
+	padding: 0 25px
+}
+
+.vjs-playlist .vjs-playlist-name {
+	max-width: 60%
+}
+
+.vjs-playlist .vjs-up-next .vjs-up-next-text {
+	display: none
+}
+
+.vjs-playlist-player-container .vjs-playlist-sidebar-vertical {
+	width: 370px;
+}
+
+.vjs-playlist-vertical .vjs-playlist-item {
+	margin-bottom: 15px
+}
+
+.vjs-playlist-vertical img {
+	width: 40%;
+	object-fit: cover
+}
+
+.vjs-playlist .vjs-playlist-title-container {
+	width: 60%
+	position: relative;
+	overflow: hidden;
+}
+
+@media (min-width: 521px) {
+.vjs-playlist img {
+	min-height: 78px;
+	height: 78px;
+}
+}
+
+.vjs-playlist-player-container .vjs-playlist-show-hide button {
+	display: none
+}
+
+.vjs-playlist .vjs-playlist-name {
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	white-space: normal;
+	-webkit-box-orient: vertical;
+	padding: 0;
+	text-shadow: none;
+	align-items: center;
+	justify-content: center;
+	color: #16293F;
+	margin: 12px 0
+}
+
+.vjs-up-next-text {
+	display: none
+}
+
+.vjs-playlist .vjs-selected, .vjs-playlist.vjs-mouse .vjs-selected {
+	background-color: transparent
+}
+
+.video-js .vjs-dock-text {
+	padding: 40px;
+}
+
+@media (max-width: 1024px) {
+	.video-js .vjs-dock-text {
+		padding: 15px;
+	}
+}
+
+.video-js .vjs-dock-title {
+	font-size: 23px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.video-js .vjs-dock-description {
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.vjs-playlist .vjs-selected .vjs-playlist-now-playing-text{
+	height: 100%;
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-color: rgba(140, 140, 140, 0.5);
+}
+
+.vjs-playlist .vjs-playlist-duration {
+	top: 0;
+	left: 0;
+	margin-left: 0;
+	font-size: 16px;
+	line-height: 100%;
+	background-color: #8C8C8C;
+}
+
+.bc-iframe body {
+	background-color: transparent
+}
+
+.vjs-playlist {
+	background-color: transparent
+}
+
+.vjs-playlist-player-container {
+	background-color: transparent;
+}
+
+.vjs-playlist-show-hide button {
+	display: none
+}
+
+.vjs-dock-text {
+	height: 100%
+}
+
+.vjs-playlist-player-container .vjs-playlist-vertical {
+	margin: 30px 0 0 50px;
+}
+
+@media (max-width: 1024px) {
+	.vjs-playlist-player-container .vjs-playlist-sidebar-vertical {
+		display: none
+	}
+	.video-js {
+		max-width: none;
+}
+}
+
+.vjs-playlist-player-container .vjs-playlist-sidebar-vertical.vjs-playlist-hidden .vjs-playlist-item {
+	opacity: 1 !important
+}
+
+.vjs-playlist .vjs-playlist-name {
+	line-height: 26px;
+	max-height: 52px;
+}
+
+.video-js .vjs-dock-text {
+    background: linear-gradient(180deg, rgba(53, 53, 53, 0.8) 17.48%, rgba(196, 196, 196, 0) 100%);
+}
+.video-js .vjs-dock-title {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 0.1px;
+    padding: 0 40px 10px 0;
+    margin-bottom: 0;
+}
+
+.video-js .vjs-dock-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.1px
+}
+
+.video-js .vjs-big-play-button {
+    width: 122px;
+    height: 122px;
+    line-height: 122px
+}
+
+.video-js:hover .vjs-big-play-button {
+    transition: 0.4s;
+    background-color: #de3700 !important
+}
+.video-js .vjs-big-play-button {
+    transition: 0.4s;
+    background-color: rgba(0,0,0,0.6) !important
+}
+.video-js .bc-player-default_default .vjs-big-play-button {
+    transition: 0.4s;
+}
+
+.vjs-playlist-player-container .vjs-playlist-sidebar-vertical.vjs-playlist-hidden {
+	width: 370px;
+	top: 0;
+	height: 100%
+}
+
+.video-js .vjs-progress-control {
+	height: 3px;
+	top: 0
+}
+
+.video-js .vjs-big-play-button {
+	margin-top: -60px;
+	margin-left: -60px
+}
+
+
+
+
+
+
+
+
+
