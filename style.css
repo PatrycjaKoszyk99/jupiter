@@ -1,0 +1,99 @@
+.vjs-playlist-vertical .vjs-playlist-thumbnail {
+	display: flex;
+	flex-direction: row
+}
+
+.vjs-playlist-player-container {
+	display: flex;
+	flex-direction: row
+}
+
+.vjs-playlist-sidebar {
+	position: relative;
+}
+
+.vjs-playlist-vertical .vjs-playlist-item {
+	margin-bottom: 15px
+}
+
+.vjs-playlist-vertical img {
+	width: 40%
+}
+
+.vjs-playlist .vjs-playlist-title-container {
+	width: 60%
+	position: relative;
+	overflow: hidden;
+}
+
+.vjs-playlist .vjs-playlist-name {
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	white-space: normal;
+	-webkit-box-orient: vertical;
+	padding: 0;
+	text-shadow: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #16293F
+}
+
+.vjs-up-next-text {
+	display: none
+}
+
+.vjs-playlist .vjs-selected, .vjs-playlist.vjs-mouse .vjs-selected {
+	background-color: transparent
+}
+
+.vjs-playlist .vjs-selected, .vjs-playlist.vjs-mouse .vjs-selected img {
+	
+}
+
+.vjs-playlist .vjs-selected .vjs-playlist-now-playing-text{
+	height: 100%;
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-color: rgba(140, 140, 140, 0.5);
+}
+
+.vjs-playlist .vjs-playlist-duration {
+	top: 0;
+	left: 0;
+	margin-left: 0;
+	font-size: 18px;
+	line-height: 24px;
+	background-color: #8C8C8C;
+}
+
+.vjs-playlist {
+	background-color: #E4EBF2
+}
+
+.vjs-playlist-player-container {
+	background-color: #e4ebf2;
+}
+
+.vjs-playlist-show-hide button {
+	display: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
